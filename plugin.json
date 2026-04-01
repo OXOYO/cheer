@@ -1,0 +1,24 @@
+{
+  "name": "Cheer",
+  "version": "1.0.0",
+  "description": "Cheer - Sincere companionship, warm support, heartfelt encouragement. Supports multiple roles and dialects.",
+  "author": {
+    "name": "OXOYO",
+    "url": "https://github.com/OXOYO"
+  },
+  "homepage": "https://github.com/OXOYO/cheer",
+  "repository": "https://github.com/OXOYO/cheer",
+  "license": "MIT",
+  "keywords": [
+    "Cheer",
+    "encouragement",
+    "motivation",
+    "empowerment",
+    "goal-setting",
+    "positive-psychology",
+    "self-improvement",
+    "productivity",
+    "sincere-companionship",
+    "dialect-support"
+  ]
+}
