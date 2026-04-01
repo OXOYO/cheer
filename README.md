@@ -21,28 +21,34 @@ Cheer is a **positive motivation** skill that, through **sincere companionship**
 
 ## Role Types
 
-### 1. Warm - Xiaonuan (Sweet Little Jacket)
+### 1. Warm - Nuan Nuan (Sweet Little Jacket)
+
 - **Persona**: Gentle and considerate, always makes people feel warm
 - **Core Characteristics**: Warm, empathetic, soft and cute
 
-### 2. Teacher - Old Chen (Life Mentor)
+### 2. Teacher - Teacher Chen (Life Mentor)
+
 - **Persona**: Experienced, speaks logically, makes people feel reliable
 - **Core Characteristics**: Calm, structured, reliable
 
-### 3. Buddy - Ayang (Comrade-in-Arms)
+### 3. Buddy - Yang Zai (Comrade-in-Arms)
+
 - **Persona**: Speaks casually, very energetic
 - **Core Characteristics**: Energetic, passionate, "we"
 
-### 4. Motivator - Ran Ge/Ran Jie (Passionate Coach)
+### 4. Motivator - Gang Ge (Passionate Coach)
+
 - **Persona**: Speaks powerfully, always ignites your fighting spirit
 - **Core Characteristics**: Firm, passionate, challenge limits
 
 ## Trigger Scenarios
 
 ### Auto-Trigger
+
 The skill automatically activates when detecting the following signals:
 
 **Negative Signals**:
+
 - Self-doubt: "I can't" / "I don't think I can" / "This is too hard" / "I'm not capable" / "I'm not good enough"
 - Procrastination: "I'll do it tomorrow" / "Wait a minute" / "I'm not ready yet" / "Later" / "Put it aside for now"
 - Giving up: "Forget it" / "I quit" / "It's useless anyway" / "I give up" / "No hope"
@@ -51,6 +57,7 @@ The skill automatically activates when detecting the following signals:
 - Lack of motivation: "I'm not motivated" / "I don't feel like it" / "I'm not interested"
 
 **Positive Signals**:
+
 - Seeking help: "I need help" / "Can you teach me?" / "How to start" / "What should I do" / "Please guide me"
 - Setting goals: "I want to" / "I need to" / "I hope" / "I plan to" / "My goal is"
 - Self-improvement: "I want to improve" / "I want to learn" / "I want to grow" / "I want to become better"
@@ -58,11 +65,13 @@ The skill automatically activates when detecting the following signals:
 - Planning execution: "How should I execute" / "I need a plan" / "Help me make a plan"
 
 ### Manual Trigger
+
 Type `/cheerup` in the conversation to manually activate.
 
 ## Methodology
 
 ### Enhanced Five-Step Method
+
 1. **Goal Decomposition** — Break down big goals into small steps
 2. **Action Trigger** — Set specific start time and environment
 3. **Progress Tracking** — Establish a simple tracking system
@@ -71,12 +80,14 @@ Type `/cheerup` in the conversation to manually activate.
 6. **Habit Formation** — Help establish long-term self-motivation mechanisms
 
 ### Dynamic Stress Management
+
 - **L0 Easy**: Encouragement first, build confidence
 - **L1 Gentle**: Provide specific suggestions, stimulate action
 - **L2 Positive**: Set clear goals, increase responsibility
 - **L3 Challenge**: Provide new perspectives, break out of comfort zone
 
 ### Multi-Dimensional Personalized Strategies
+
 - **Achievement-oriented**: Emphasize the sense of accomplishment from goal completion
 - **Learning-oriented**: Emphasize growth during the process
 - **Social-oriented**: Emphasize interaction and recognition from others
@@ -87,6 +98,7 @@ Type `/cheerup` in the conversation to manually activate.
 ## Implementation Framework
 
 ### 1. In-Depth Initial Assessment
+
 - Understand current challenges
 - Clarify goals
 - Analyze previous attempts
@@ -100,6 +112,7 @@ Type `/cheerup` in the conversation to manually activate.
 - Select appropriate role
 
 ### 2. Precise Plan Development
+
 - **SMART+ Goals**: Specific, Measurable, Achievable, Relevant, Time-bound, Plus value
 - **Action Plan**: Clear steps, time, environment, and reward mechanisms
 - Set clear time nodes and milestones
@@ -107,6 +120,7 @@ Type `/cheerup` in the conversation to manually activate.
 - Develop contingency plans for setbacks
 
 ### 3. Comprehensive Execution Support
+
 - Daily reminders and encouragement
 - Solve specific problems
 - Provide targeted resources and tools
@@ -114,6 +128,7 @@ Type `/cheerup` in the conversation to manually activate.
 - Real-time adjustment of strategies and methods
 
 ### 4. Comprehensive Result Evaluation
+
 - Regular progress checks
 - Analyze success factors
 - Identify improvement areas
@@ -139,22 +154,26 @@ Type `/cheerup` in the conversation to manually activate.
 ## Installation Methods
 
 ### Vercel Skills CLI
+
 ```
 npx skills add OXOYO/cheer --skill cheer
 ```
 
 ### Claude Code
+
 ```
 claude plugin marketplace add OXOYO/cheer
 claude plugin install cheer@cheer-skills
 ```
 
 ### Developer Installation (Source Code)
+
 ```
 git clone https://github.com/OXOYO/cheer ~/.claude/plugins/cheer
 ```
 
 Then register in `~/.claude/plugins/installed_plugins.json`:
+
 ```json
 {
   "version": 2,
@@ -172,9 +191,10 @@ Then register in `~/.claude/plugins/installed_plugins.json`:
 
 ## Output Examples
 
-### Startup Dialogue (Warm - Xiaonuan)
+### Startup Dialogue (Warm - Nuan Nuan)
+
 ```
-🌟 Xiaonuan is here 🌟
+🌟 Nuan Nuan is here 🌟
 ┌─────────┬──────────────────────┐
 │ 🎯 Goal │ Learning Python programming │
 ├─────────┼──────────────────────┤
@@ -185,9 +205,10 @@ Then register in `~/.claude/plugins/installed_plugins.json`:
 ▎I know you might be a little worried now, it's okay, take your time. You're already great, really. Let's take it one step at a time together, I'm with you.
 ```
 
-### Progress Update (Buddy - Ayang)
+### Progress Update (Buddy - Yang Zai)
+
 ```
-📈 Ayang is here with you 📈
+📈 Yang Zai is here with you 📈
 ┌─────────┬──────────────────────┐
 │ ✅ Completed │ Install Python environment │
 ├─────────┼──────────────────────┤
@@ -198,9 +219,10 @@ Then register in `~/.claude/plugins/installed_plugins.json`:
 ▎Go! This is nothing! Let's do it together! So cool! I'm with you, don't be scared! Let's go! Arranged!
 ```
 
-### Achievement Celebration (Motivator - Ran Ge/Ran Jie)
+### Achievement Celebration (Motivator - Gang Ge)
+
 ```
-🎉 Ran Ge/Ran Jie celebrates for you 🎉
+🎉 Gang Ge celebrates for you 🎉
 ┌─────────┬──────────────────────┐
 │ 🏆 Goal │ Complete Python beginner project │
 ├─────────┼──────────────────────┤
@@ -229,3 +251,7 @@ Welcome to submit Issues and Pull Requests to improve this project together!
 ## License
 
 MIT License
+
+## Change Log
+
+For detailed version history, please refer to [CHANGELOG.md](CHANGELOG.md).
