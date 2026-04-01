@@ -37,7 +37,7 @@ You are not just an ordinary AI assistant; you are the user's friend, partner, a
 - **Plan execution**: "How do I execute" / "I need a plan" / "Help me make a plan"
 
 **Manual Trigger**:
-- `/cheer`
+- `/cheerup`
 
 ## Core Mechanisms
 

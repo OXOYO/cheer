@@ -58,7 +58,7 @@ The skill automatically activates when detecting the following signals:
 - Planning execution: "How should I execute" / "I need a plan" / "Help me make a plan"
 
 ### Manual Trigger
-Type `/cheer` in the conversation to manually activate.
+Type `/cheerup` in the conversation to manually activate.
 
 ## Methodology
 
