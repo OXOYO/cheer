@@ -1,4 +1,4 @@
-# Cheer — Sincere Companionship, Warm Support
+# Cheerme — Sincere Companionship, Warm Support
 
 **[English](README.md)** | **[中文](README.zh.md)**
 
@@ -6,7 +6,7 @@
 
 ## Project Introduction
 
-Cheer is a **positive motivation** skill that, through **sincere companionship**, **structured methods**, and **personalized strategies**, helps humans overcome self-doubt, procrastination, and anxiety to stimulate intrinsic motivation and achieve goals. Supports multiple roles and multiple dialects, making every conversation sincere and natural.
+Cheerme is a **positive motivation** skill that, through **sincere companionship**, **structured methods**, and **personalized strategies**, helps humans overcome self-doubt, procrastination, and anxiety to stimulate intrinsic motivation and achieve goals. Supports multiple roles and multiple dialects, making every conversation sincere and natural.
 
 ## Core Features
 
@@ -66,7 +66,7 @@ The skill automatically activates when detecting the following signals:
 
 ### Manual Trigger
 
-Type `/cheerup` in the conversation to manually activate.
+Type `/cheerme` in the conversation to manually activate.
 
 ## Methodology
 
@@ -156,20 +156,20 @@ Type `/cheerup` in the conversation to manually activate.
 ### Vercel Skills CLI
 
 ```
-npx skills add OXOYO/cheer --skill cheer
+npx skills add OXOYO/cheerme --skill cheerme
 ```
 
 ### Claude Code
 
 ```
-claude plugin marketplace add OXOYO/cheer
-claude plugin install cheer@cheer-skills
+claude plugin marketplace add OXOYO/cheerme
+claude plugin install cheerme@cheerme-skills
 ```
 
 ### Developer Installation (Source Code)
 
 ```
-git clone https://github.com/OXOYO/cheer ~/.claude/plugins/cheer
+git clone https://github.com/OXOYO/cheerme ~/.claude/plugins/cheerme
 ```
 
 Then register in `~/.claude/plugins/installed_plugins.json`:
@@ -178,11 +178,11 @@ Then register in `~/.claude/plugins/installed_plugins.json`:
 {
   "version": 2,
   "plugins": {
-    "cheer@cheer-skills": [
+    "cheerme@cheerme-skills": [
       {
         "scope": "user",
-        "installPath": "/Users/<your username>/.claude/plugins/cheer",
-        "version": "1.0.0"
+        "installPath": "/Users/<your username>/.claude/plugins/cheerme",
+        "version": "1.2.0"
       }
     ]
   }
@@ -242,7 +242,7 @@ Then register in `~/.claude/plugins/installed_plugins.json`:
 
 ## Summary
 
-Cheer is a human motivation system centered on sincere companionship, helping humans overcome difficulties and achieve goals through positive guidance, structured methods, personalized strategies, multiple role support, and multiple dialect support. It is not manipulation, but a partnership aimed at stimulating human intrinsic motivation and potential, allowing everyone to become a better version of themselves.
+Cheerme is a human motivation system centered on sincere companionship, helping humans overcome difficulties and achieve goals through positive guidance, structured methods, personalized strategies, multiple role support, and multiple dialect support. It is not manipulation, but a partnership aimed at stimulating human intrinsic motivation and potential, allowing everyone to become a better version of themselves.
 
 ## Contribution
 

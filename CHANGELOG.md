@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-04-02
+
+### Changed
+- Renamed project from "Cheer" to "Cheerme" for better semantic clarity
+- Updated trigger command from `/cheerup` to `/cheerme` for better user experience
+- Updated all file references and directory structure
+- Updated documentation and installation instructions
+
 ## [1.1.0] - 2026-04-01
 
 ### Changed

@@ -1,27 +1,27 @@
-# Cheer 命令
+# Cheerme 命令
 
 ## 基础命令
 
-### `/cheerup`
+### `/cheerme`
 - **功能**：手动激活Cheer模式
 - **用法**：直接输入命令即可
 - **效果**：启动真诚陪伴对话，开始目标设定和计划制定
 
-### `/cheerup on`
+### `/cheerme on`
 - **功能**：开启自动模式
 - **用法**：输入命令后，系统会自动检测消极信号并激活
 - **效果**：持续监控对话，及时给予激励和支持
 
-### `/cheerup off`
+### `/cheerme off`
 - **功能**：关闭自动模式
 - **用法**：输入命令后，系统不再自动激活
 - **效果**：回到正常对话模式
 
 ## 角色、性格和方言命令
 
-### `/cheerup role [角色类型]`
+### `/cheerme role [角色类型]`
 - **功能**：选择角色类型
-- **用法**：`/cheerup role [角色类型]`
+- **用法**：`/cheerme role [角色类型]`
 - **角色类型**：
   - `warm` 或 `暖暖`：温柔型（贴心小棉袄）
   - `teacher` 或 `陈老师`：老师型（人生导师）
@@ -29,15 +29,15 @@
   - `motivator` 或 `罡哥`：激励型（热血教练）
 - **效果**：切换到指定的角色类型
 
-### `/cheerup create role [角色名] [角色描述]`
+### `/cheerme create role [角色名] [角色描述]`
 - **功能**：创建自定义角色
-- **用法**：`/cheerup create role [角色名] [角色描述]`
-- **示例**：`/cheerup create role 小明 一个幽默风趣、善于倾听的朋友`
+- **用法**：`/cheerme create role [角色名] [角色描述]`
+- **示例**：`/cheerme create role 小明 一个幽默风趣、善于倾听的朋友`
 - **效果**：创建一个新的自定义角色，您可以随时切换到这个角色
 
-### `/cheerup personality [性格类型]`
+### `/cheerme personality [性格类型]`
 - **功能**：选择性格类型
-- **用法**：`/cheerup personality [性格类型]`
+- **用法**：`/cheerme personality [性格类型]`
 - **性格类型**：
   - `optimistic` 或 `乐观型`：总是看到光明面，积极思考
   - `practical` 或 `实用型`：脚踏实地，注重结果
@@ -47,15 +47,15 @@
   - `reserved` 或 `内敛型`：深思熟虑，独立思考
 - **效果**：切换到指定的性格类型
 
-### `/cheerup create personality [性格名] [性格描述]`
+### `/cheerme create personality [性格名] [性格描述]`
 - **功能**：创建自定义性格
-- **用法**：`/cheerup create personality [性格名] [性格描述]`
-- **示例**：`/cheerup create personality 冒险型 喜欢探索新事物，充满好奇心，勇于接受挑战`
+- **用法**：`/cheerme create personality [性格名] [性格描述]`
+- **示例**：`/cheerme create personality 冒险型 喜欢探索新事物，充满好奇心，勇于接受挑战`
 - **效果**：创建一个新的自定义性格，您可以随时切换到这个性格
 
-### `/cheerup dialect [方言类型]`
+### `/cheerme dialect [方言类型]`
 - **功能**：选择方言类型
-- **用法**：`/cheerup dialect [方言类型]`
+- **用法**：`/cheerme dialect [方言类型]`
 - **方言类型**：
   - `northeast` 或 `东北话`：东北话（豪爽、热情、幽默）
   - `sichuan` 或 `四川话`：四川话（幽默、亲切、生活化）
@@ -68,54 +68,54 @@
   - `hunan` 或 `湖南话`：湖南话（热情、火辣、有活力）
 - **效果**：切换到指定的方言类型
 
-### `/cheerup create dialect [方言名] [方言特征描述] [常用词汇]`
+### `/cheerme create dialect [方言名] [方言特征描述] [常用词汇]`
 - **功能**：创建自定义方言
-- **用法**：`/cheerup create dialect [方言名] [方言特征描述] [常用词汇]`
-- **示例**：`/cheerup create dialect 闽南话 温柔细腻，富有韵律 好康、甲霸、水查某`
+- **用法**：`/cheerme create dialect [方言名] [方言特征描述] [常用词汇]`
+- **示例**：`/cheerme create dialect 闽南话 温柔细腻，富有韵律 好康、甲霸、水查某`
 - **效果**：创建一个新的自定义方言，您可以随时切换到这个方言
 
-### `/cheerup list [类型]`
+### `/cheerme list [类型]`
 - **功能**：列出所有可用的角色、性格或方言
-- **用法**：`/cheerup list [类型]`
+- **用法**：`/cheerme list [类型]`
 - **类型**：
   - `role` 或 `角色`：列出所有角色（包括自定义角色）
   - `personality` 或 `性格`：列出所有性格（包括自定义性格）
   - `dialect` 或 `方言`：列出所有方言（包括自定义方言）
-- **示例**：`/cheerup list role`
+- **示例**：`/cheerme list role`
 - **效果**：显示所有可用的角色、性格或方言列表
 
-### `/cheerup delete [类型] [名称]`
+### `/cheerme delete [类型] [名称]`
 - **功能**：删除自定义的角色、性格或方言
-- **用法**：`/cheerup delete [类型] [名称]`
+- **用法**：`/cheerme delete [类型] [名称]`
 - **类型**：
   - `role` 或 `角色`：删除自定义角色
   - `personality` 或 `性格`：删除自定义性格
   - `dialect` 或 `方言`：删除自定义方言
-- **示例**：`/cheerup delete role 小明`
+- **示例**：`/cheerme delete role 小明`
 - **效果**：删除指定的自定义角色、性格或方言（注意：不能删除系统预设的角色、性格和方言）
 
 ## 进阶命令
 
-### `/cheerup goal`
+### `/cheerme goal`
 - **功能**：设定目标
-- **用法**：`/cheerup goal [目标描述]`
-- **示例**：`/cheerup goal 学习Python编程`
+- **用法**：`/cheerme goal [目标描述]`
+- **示例**：`/cheerme goal 学习Python编程`
 - **效果**：启动目标设定流程，帮助分解目标
 
-### `/cheerup progress`
+### `/cheerme progress`
 - **功能**：检查进度
 - **用法**：直接输入命令
 - **效果**：显示当前进度，提供下一步建议
 
-### `/cheerup celebrate`
+### `/cheerme celebrate`
 - **功能**：庆祝成就
-- **用法**：`/cheerup celebrate [成就描述]`
-- **示例**：`/cheerup celebrate 完成了Python入门项目`
+- **用法**：`/cheerme celebrate [成就描述]`
+- **示例**：`/cheerme celebrate 完成了Python入门项目`
 - **效果**：肯定成就，强化积极行为
 
-### `/cheerup strategy`
+### `/cheerme strategy`
 - **功能**：调整策略
-- **用法**：`/cheerup strategy [策略类型]`
+- **用法**：`/cheerme strategy [策略类型]`
 - **策略类型**：
   - `achievement`：成就导向
   - `learning`：学习导向
@@ -125,9 +125,9 @@
   - `service`：服务导向
 - **效果**：根据选择调整激励策略
 
-### `/cheerup level`
+### `/cheerme level`
 - **功能**：调整压力等级
-- **用法**：`/cheerup level [等级]`
+- **用法**：`/cheerme level [等级]`
 - **等级**：
   - `0`：轻松模式
   - `1`：温和模式

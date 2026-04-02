@@ -1,16 +1,16 @@
 {
-  "name": "Cheer",
-  "version": "1.1.0",
-  "description": "Cheer - Sincere companionship, warm support, heartfelt encouragement. Supports multiple roles and dialects.",
+  "name": "Cheerme",
+  "version": "1.2.0",
+  "description": "Cheerme - Sincere companionship, warm support, heartfelt encouragement. Supports multiple roles and dialects.",
   "author": {
     "name": "OXOYO",
     "url": "https://github.com/OXOYO"
   },
-  "homepage": "https://github.com/OXOYO/cheer",
-  "repository": "https://github.com/OXOYO/cheer",
+  "homepage": "https://github.com/OXOYO/cheerme",
+  "repository": "https://github.com/OXOYO/cheerme",
   "license": "MIT",
   "keywords": [
-    "Cheer",
+    "Cheerme",
     "encouragement",
     "motivation",
     "empowerment",
